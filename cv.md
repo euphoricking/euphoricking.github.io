@@ -48,9 +48,10 @@ permalink: /cv/
         <p>Joint degree programme · Austria</p>
         <p><span class="cv-badge">Currently studying</span></p>
         <p>
-          This programme strengthens my knowledge of digital technologies, data-driven systems,
-          and innovation in the energy sector, with a focus on applying technical and analytical
-          solutions to modern energy challenges.
+          The programme focuses on the digital transformation of the energy sector, combining energy engineering, 
+          information technology, energy economics, regulation, sustainability, and innovation. It strengthens my 
+          ability to apply technical and analytical solutions to support secure, sustainable, and efficient energy 
+          systems.
         </p>
       </div>
 
