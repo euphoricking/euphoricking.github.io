@@ -1,5 +1,5 @@
 title: "Ekata Leo Oni | Geoinformatics Portfolio"
-email: "leoo158@gmail.com"
+email: "ekata.oni@stud.plus.ac.at"
 description: >-
   Professional ePortfolio for MSc Applied Geoinformatics, GIS, spatial data science,
   WebGIS, spatial databases, business intelligence, and data engineering projects.
@@ -8,9 +8,9 @@ url: "https://euphoricking.github.io"
 
 author:
   name: "Ekata Leo Oni"
-  title: "MSc Applied Geoinformatics | GIS, Spatial Data Science & Business Intelligence"
+  title: "MSc Applied Geoinformatics | GIS, Spatial Data Science, Data Engineering & Business Intelligence"
   location: "Salzburg, Austria"
-  linkedin: "https://www.linkedin.com/in/your-linkedin"
+  linkedin: "https://www.linkedin.com/in/ekata-leo-oni/"
   github: "https://github.com/euphoricking"
 
 theme: minima
