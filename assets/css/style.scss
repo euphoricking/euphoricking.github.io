@@ -761,3 +761,29 @@ h3 {
     height: auto;
   }
 }
+
+.cv-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: rgba(15, 118, 110, 0.10);
+  color: var(--accent-dark);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.compact-skills {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 22px;
+}
+
+.compact-skills .skill-card {
+  box-shadow: none;
+}
+
+@media (max-width: 900px) {
+  .compact-skills {
+    grid-template-columns: 1fr;
+  }
+}
