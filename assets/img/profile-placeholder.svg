@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1000" viewBox="0 0 900 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef4f7"/>
+      <stop offset="1" stop-color="#dce9ec"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#14213d" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1000" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#14213d" stroke-width="2">
+    <path d="M0 160H900M0 320H900M0 480H900M0 640H900M0 800H900"/>
+    <path d="M150 0V1000M300 0V1000M450 0V1000M600 0V1000M750 0V1000"/>
+  </g>
+  <circle cx="240" cy="220" r="160" fill="url(#accent)"/>
+  <circle cx="710" cy="610" r="210" fill="url(#accent)"/>
+  <rect x="105" y="95" width="690" height="810" rx="48" fill="white" opacity="0.72"/>
+  <circle cx="450" cy="345" r="118" fill="#cbd5e1"/>
+  <path d="M245 760c24-160 110-246 205-246s181 86 205 246" fill="#cbd5e1"/>
+  <rect x="105" y="95" width="690" height="810" rx="48" fill="none" stroke="#94a3b8" stroke-width="8" stroke-dasharray="20 16" opacity="0.75"/>
+  <text x="450" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#334155">Replace with your photo</text>
+  <text x="450" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#64748b">assets/img/profile.jpg</text>
+</svg>

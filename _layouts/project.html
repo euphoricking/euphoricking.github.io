@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<section class="page-hero compact">
+  <div class="container">
+    <p class="eyebrow">{{ page.category }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.summary }}</p>
+
+    {% if page.tools %}
+    <div class="tag-row">
+      {% for tool in page.tools %}
+      <span class="tag">{{ tool }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container project-layout">
+    <article class="content-card project-content">
+      {% if page.image %}
+      <img class="project-banner" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      {% endif %}
+
+      {{ content }}
+
+      {% if page.gallery %}
+      <section class="project-gallery-section">
+        <h2>Project visuals</h2>
+        <div class="project-gallery">
+          {% for item in page.gallery %}
+          <figure>
+            <img src="{{ item.image | relative_url }}" alt="{{ item.caption | default: page.title }}">
+            {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+          </figure>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+    </article>
+
+    <aside class="project-sidebar">
+      <div class="side-card">
+        <h3>Project Details</h3>
+        <p><strong>Category:</strong><br>{{ page.category }}</p>
+        {% if page.status %}<p><strong>Status:</strong><br>{{ page.status }}</p>{% endif %}
+        {% if page.period %}<p><strong>Period:</strong><br>{{ page.period }}</p>{% endif %}
+        {% if page.links %}
+        <h4>Links</h4>
+        {% for link in page.links %}
+          <a class="side-link" href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+        {% endif %}
+      </div>
+    </aside>
+  </div>
+</section>
