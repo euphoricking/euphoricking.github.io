@@ -36,7 +36,7 @@ title: Home
     <div class="profile-panel">
       <div class="profile-card">
         <div class="profile-image-wrap">
-          <img src="{{ '/assets/img/profile-placeholder.svg' | relative_url }}" alt="Profile placeholder" class="profile-image">
+          <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Profile placeholder" class="profile-image">
         </div>
         <div class="profile-info">
           <p class="profile-kicker">Personal ePortfolio</p>
