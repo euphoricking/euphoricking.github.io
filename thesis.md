@@ -14,7 +14,7 @@ permalink: /thesis/
     </p>
     <div class="button-row">
       <a class="button primary" href="{{ '/portfolio/msc-thesis-crime-hotspot-prediction/' | relative_url }}">Read full project page</a>
-      <a class="button ghost" href="{{ '/assets/files/projects/msc-thesis-report.pdf' | relative_url }}">Download thesis report</a>
+      <a class="button ghost" href="{{ '/assets/files/projects/#' | relative_url }}">Download thesis report</a>
     </div>
   </div>
 </section>
