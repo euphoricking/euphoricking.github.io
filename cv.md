@@ -69,7 +69,7 @@ permalink: /cv/
       <div class="cv-item">
         <h3>BSc Applied Physics (Geophysics)</h3>
         <p><strong>Ambrose Alli University</strong> · Nigeria</p>
-        <p><span class="cv-badge">Graduated in 2018</span></p>
+        <p><span class="cv-badge">Graduated</span></p>
         <p>
           This degree provided a scientific foundation in physical processes, geophysical methods,
           quantitative reasoning, data interpretation, and earth-related systems.
